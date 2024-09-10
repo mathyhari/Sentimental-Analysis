@@ -8,7 +8,6 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import cv2
-import sklearn
 from PIL import Image
 
 # Load the emotion prediction model
