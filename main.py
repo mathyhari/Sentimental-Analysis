@@ -12,7 +12,7 @@ import sklearn
 from PIL import Image
 
 # Load the emotion prediction model
-pipe_lr = joblib.load(open("C:/Users/hari1/Downloads/Sentimental Analysis/model/text_emotion.pkl", "rb"))
+pipe_lr = joblib.load(open("text_emotion.pkl", "rb"))
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 # Dictionary for emoji representation
 emotions_emoji_dict = {
